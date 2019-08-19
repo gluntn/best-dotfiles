@@ -1,0 +1,5 @@
+[General]
+history=kitty,discord,polybar
+
+[PlasmaRunnerManager]
+LaunchCounts=1 shell_polybar,1 services_kitty.desktop,1 services_discord_discord.desktop

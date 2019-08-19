@@ -1,0 +1,17 @@
+[$Version]
+update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update
+
+[MainWindow]
+Height 1080=1002
+State=AAAA/wAAAAD9AAAAAAAAA6cAAAOmAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=935
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/Neon Life.jpg
+File2[$e]=https://cdn.discordapp.com/attachments/403741067335434240/612771492899323915/Screenshot_from_2019-08-19_00-13-25.png
+Name1[$e]=Neon Life.jpg
+Name2[$e]=Screenshot_from_2019-08-19_00-13-25.png
+
+[SideBar]
+SideBarSplitterSizes=242,690

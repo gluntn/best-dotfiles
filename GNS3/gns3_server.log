@@ -1,0 +1,216 @@
+2019-08-19 13:33:03 INFO run.py:212 GNS3 server version 2.1.21
+2019-08-19 13:33:03 INFO run.py:214 Copyright (c) 2007-2019 GNS3 Technologies Inc.
+2019-08-19 13:33:03 INFO run.py:217 Config file /home/wost/.config/GNS3/gns3_server.conf loaded
+2019-08-19 13:33:03 WARNING run.py:223 Local mode is enabled. Beware, clients will have full control on your filesystem
+2019-08-19 13:33:03 INFO run.py:231 Running with Python 3.7.3 and has PID 27300
+2019-08-19 13:33:03 INFO run.py:79 Current locale is en_US.UTF-8
+2019-08-19 13:33:03 INFO web_server.py:283 Starting server on 127.0.0.1:3080
+2019-08-19 13:33:03 INFO __init__.py:65 Load controller configuration file /home/wost/.config/GNS3/gns3_controller.conf
+2019-08-19 13:33:03 INFO __init__.py:168 Start controller
+2019-08-19 13:33:03 INFO compute.py:79 Create compute local
+2019-08-19 13:33:03 INFO compute.py:420 Connecting to compute 'local'
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/version HTTP/1.1" 200 227 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/appliances/templates HTTP/1.1" 200 641509 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/appliances HTTP/1.1" 200 2894 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/computes HTTP/1.1" 200 585 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/appliances/templates HTTP/1.1" 200 641509 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/appliances HTTP/1.1" 200 2894 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/projects HTTP/1.1" 200 1359 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/version HTTP/1.1" 200 227 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/projects HTTP/1.1" 200 1359 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 WARNING symbols.py:94 Could not retrieve symbol ':/symbols/guest.svg'
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/:/symbols/guest.svg/raw HTTP/1.1" 200 18843 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/:/symbols/router.svg/raw HTTP/1.1" 200 11037 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/:/symbols/asa.svg/raw HTTP/1.1" 200 18812 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 WARNING symbols.py:94 Could not retrieve symbol 'fortinet.svg'
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/fortinet.svg/raw HTTP/1.1" 200 18843 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 WARNING symbols.py:94 Could not retrieve symbol 'linux_guest.svg'
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/linux_guest.svg/raw HTTP/1.1" 200 18843 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/:/symbols/route_switch_processor.svg/raw HTTP/1.1" 200 25208 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 WARNING symbols.py:94 Could not retrieve symbol 'loadbalancer.svg'
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/loadbalancer.svg/raw HTTP/1.1" 200 18843 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/:/symbols/firewall.svg/raw HTTP/1.1" 200 9626 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/:/symbols/multilayer_switch.svg/raw HTTP/1.1" 200 21517 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 WARNING symbols.py:94 Could not retrieve symbol 'mgmt_station_docker.svg'
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/mgmt_station_docker.svg/raw HTTP/1.1" 200 18843 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/:/symbols/wlan_controller.svg/raw HTTP/1.1" 200 261470 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 WARNING symbols.py:94 Could not retrieve symbol 'mgmt_station.svg'
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/mgmt_station.svg/raw HTTP/1.1" 200 18843 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 WARNING symbols.py:94 Could not retrieve symbol 'parrotlogo.png'
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/parrotlogo.png/raw HTTP/1.1" 200 18843 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 WARNING symbols.py:94 Could not retrieve symbol 'juniper-vqfx.svg'
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/juniper-vqfx.svg/raw HTTP/1.1" 200 18843 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/:/symbols/ids.svg/raw HTTP/1.1" 200 13373 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 WARNING symbols.py:94 Could not retrieve symbol 'ethernet_switch.svg'
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/ethernet_switch.svg/raw HTTP/1.1" 200 18843 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 WARNING symbols.py:94 Could not retrieve symbol 'cisco-ise.svg'
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/cisco-ise.svg/raw HTTP/1.1" 200 18843 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/:/symbols/cloud.svg/raw HTTP/1.1" 200 27982 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 WARNING symbols.py:94 Could not retrieve symbol 'juniper-vmx.svg'
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/juniper-vmx.svg/raw HTTP/1.1" 200 18843 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/:/symbols/router_firewall.svg/raw HTTP/1.1" 200 50061 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 WARNING symbols.py:94 Could not retrieve symbol 'cisco-fmcv.svg'
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/cisco-fmcv.svg/raw HTTP/1.1" 200 18843 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 WARNING symbols.py:94 Could not retrieve symbol 'securityonion-logo.png'
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/securityonion-logo.png/raw HTTP/1.1" 200 18843 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 WARNING symbols.py:94 Could not retrieve symbol 'ostinato-3d-icon.svg'
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/ostinato-3d-icon.svg/raw HTTP/1.1" 200 18843 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 WARNING symbols.py:94 Could not retrieve symbol 'pan-vm-fw.svg'
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/pan-vm-fw.svg/raw HTTP/1.1" 200 18843 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 WARNING symbols.py:94 Could not retrieve symbol 'firefox.svg'
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/firefox.svg/raw HTTP/1.1" 200 18843 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 WARNING symbols.py:94 Could not retrieve symbol 'microsoft.svg'
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/microsoft.svg/raw HTTP/1.1" 200 18843 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 WARNING symbols.py:94 Could not retrieve symbol 'vRIN.svg'
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/vRIN.svg/raw HTTP/1.1" 200 18843 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/:/symbols/vpcs_guest.svg/raw HTTP/1.1" 200 19495 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/:/symbols/ethernet_switch.svg/raw HTTP/1.1" 200 9273 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/:/symbols/hub.svg/raw HTTP/1.1" 200 7636 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/:/symbols/frame_relay_switch.svg/raw HTTP/1.1" 200 10027 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:04 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:04 +0000] "GET /v2/symbols/:/symbols/atm_switch.svg/raw HTTP/1.1" 200 9959 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:05 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:05 +0000] "GET /v2/computes HTTP/1.1" 200 585 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:05 INFO compute.py:420 Connecting to compute 'local'
+2019-08-19 13:33:05 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:05 +0000] "GET /v2/compute/capabilities HTTP/1.1" 200 552 "-" "Python/3.7 aiohttp/2.3.10"
+2019-08-19 13:33:06 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:06 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:08 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:08 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:10 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:10 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:12 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:12 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:12 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:12 +0000] "POST /v2/projects HTTP/1.1" 403 295 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:14 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:14 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:16 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:16 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:18 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:18 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:20 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:20 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:22 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:22 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:24 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:24 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:26 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:26 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:27 INFO project.py:81 Project a6552344-c1fc-4197-a74a-746402aa8972 with path '/home/wost/GNS3/projects/skole' created
+2019-08-19 13:33:27 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:27 +0000] "POST /v2/compute/projects HTTP/1.1" 201 300 "-" "Python/3.7 aiohttp/2.3.10"
+2019-08-19 13:33:27 INFO __init__.py:308 Creating new hypervisor 127.0.0.1:45691 with working directory /home/wost/GNS3/projects/skole/project-files/dynamips
+2019-08-19 13:33:27 INFO hypervisor.py:128 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i1_log.txt', '-H', '127.0.0.1:45691']
+2019-08-19 13:33:27 INFO hypervisor.py:130 Dynamips process logging to /home/wost/GNS3/projects/skole/project-files/dynamips/dynamips_i1_stdout.txt
+2019-08-19 13:33:27 INFO hypervisor.py:137 Dynamips process started PID=27308
+2019-08-19 13:33:27 INFO __init__.py:310 Hypervisor 127.0.0.1:45691 has successfully started
+2019-08-19 13:33:27 INFO dynamips_hypervisor.py:93 Connected to Dynamips hypervisor after 0.3601 seconds
+2019-08-19 13:33:27 INFO router.py:228 Router c7200 "R1" [49e65c8c-43f8-4e30-ae40-cd1657670b77] has been created
+2019-08-19 13:33:27 INFO router.py:1125 Router "R1" [49e65c8c-43f8-4e30-ae40-cd1657670b77]: adapter C7200-IO-FE inserted into slot 0
+2019-08-19 13:33:27 INFO router.py:984 Router "R1" [49e65c8c-43f8-4e30-ae40-cd1657670b77]: auto delete disks enabled
+2019-08-19 13:33:27 INFO router.py:936 Router "R1" [49e65c8c-43f8-4e30-ae40-cd1657670b77]: disk0 updated from 64MB to 0MB
+2019-08-19 13:33:27 INFO router.py:683 Router "R1" [49e65c8c-43f8-4e30-ae40-cd1657670b77]: idle-PC set to 0x606e0510
+2019-08-19 13:33:27 INFO router.py:507 Router "R1" [49e65c8c-43f8-4e30-ae40-cd1657670b77]: has a new IOS image set: "/home/wost/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T8.image"
+2019-08-19 13:33:27 INFO router.py:1047 Router "R1" [49e65c8c-43f8-4e30-ae40-cd1657670b77]: MAC address updated from ca01.6aac.0000 to ca01.5ae7.0000
+2019-08-19 13:33:27 INFO router.py:564 Router "R1" [49e65c8c-43f8-4e30-ae40-cd1657670b77]: NVRAM updated from 128KB to 512KB
+2019-08-19 13:33:27 INFO router.py:536 Router "R1" [49e65c8c-43f8-4e30-ae40-cd1657670b77]: RAM updated from 256MB to 512MB
+2019-08-19 13:33:27 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:27 +0000] "POST /v2/compute/projects/a6552344-c1fc-4197-a74a-746402aa8972/dynamips/nodes HTTP/1.1" 201 1355 "-" "Python/3.7 aiohttp/2.3.10"
+2019-08-19 13:33:27 INFO __init__.py:308 Creating new hypervisor 127.0.0.1:39977 with working directory /home/wost/GNS3/projects/skole/project-files/dynamips
+2019-08-19 13:33:27 INFO hypervisor.py:128 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i2_log.txt', '-H', '127.0.0.1:39977']
+2019-08-19 13:33:27 INFO hypervisor.py:130 Dynamips process logging to /home/wost/GNS3/projects/skole/project-files/dynamips/dynamips_i2_stdout.txt
+2019-08-19 13:33:27 INFO hypervisor.py:137 Dynamips process started PID=27323
+2019-08-19 13:33:27 INFO __init__.py:310 Hypervisor 127.0.0.1:39977 has successfully started
+2019-08-19 13:33:27 INFO dynamips_hypervisor.py:93 Connected to Dynamips hypervisor after 0.0113 seconds
+2019-08-19 13:33:27 INFO router.py:228 Router c7200 "R2" [22350548-129b-47ed-98a0-8ca7d3dbe940] has been created
+2019-08-19 13:33:27 INFO router.py:1125 Router "R2" [22350548-129b-47ed-98a0-8ca7d3dbe940]: adapter C7200-IO-FE inserted into slot 0
+2019-08-19 13:33:27 INFO router.py:984 Router "R2" [22350548-129b-47ed-98a0-8ca7d3dbe940]: auto delete disks enabled
+2019-08-19 13:33:27 INFO router.py:936 Router "R2" [22350548-129b-47ed-98a0-8ca7d3dbe940]: disk0 updated from 64MB to 0MB
+2019-08-19 13:33:27 INFO router.py:683 Router "R2" [22350548-129b-47ed-98a0-8ca7d3dbe940]: idle-PC set to 0x606e0510
+2019-08-19 13:33:27 INFO router.py:507 Router "R2" [22350548-129b-47ed-98a0-8ca7d3dbe940]: has a new IOS image set: "/home/wost/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T8.image"
+2019-08-19 13:33:27 INFO router.py:1047 Router "R2" [22350548-129b-47ed-98a0-8ca7d3dbe940]: MAC address updated from ca02.6abb.0000 to ca02.5af6.0000
+2019-08-19 13:33:27 INFO router.py:564 Router "R2" [22350548-129b-47ed-98a0-8ca7d3dbe940]: NVRAM updated from 128KB to 512KB
+2019-08-19 13:33:27 INFO router.py:536 Router "R2" [22350548-129b-47ed-98a0-8ca7d3dbe940]: RAM updated from 256MB to 512MB
+2019-08-19 13:33:27 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:27 +0000] "POST /v2/compute/projects/a6552344-c1fc-4197-a74a-746402aa8972/dynamips/nodes HTTP/1.1" 201 1355 "-" "Python/3.7 aiohttp/2.3.10"
+2019-08-19 13:33:27 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:27 +0000] "POST /v2/compute/projects/a6552344-c1fc-4197-a74a-746402aa8972/ports/udp HTTP/1.1" 201 243 "-" "Python/3.7 aiohttp/2.3.10"
+2019-08-19 13:33:27 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:27 +0000] "POST /v2/compute/projects/a6552344-c1fc-4197-a74a-746402aa8972/ports/udp HTTP/1.1" 201 243 "-" "Python/3.7 aiohttp/2.3.10"
+2019-08-19 13:33:27 INFO nio_udp.py:87 NIO UDP udp-96c489e3-c6fc-447a-9e92-c453cb9a5c19 created with lport=10000, rhost=127.0.0.1, rport=10001
+2019-08-19 13:33:27 INFO base_node.py:540 Starting new uBridge hypervisor 127.0.0.1:33541
+2019-08-19 13:33:27 INFO hypervisor.py:170 starting ubridge: ['/usr/bin/ubridge', '-H', '127.0.0.1:33541']
+2019-08-19 13:33:27 INFO hypervisor.py:172 logging to /home/wost/GNS3/projects/skole/project-files/dynamips/49e65c8c-43f8-4e30-ae40-cd1657670b77/ubridge.log
+2019-08-19 13:33:27 INFO hypervisor.py:180 ubridge started PID=27339
+2019-08-19 13:33:27 INFO base_node.py:543 Hypervisor 127.0.0.1:33541 has successfully started
+2019-08-19 13:33:27 INFO ubridge_hypervisor.py:84 Connected to uBridge hypervisor after 0.1032 seconds
+2019-08-19 13:33:27 INFO router.py:1312 Router "R1" [49e65c8c-43f8-4e30-ae40-cd1657670b77]: NIO udp-96c489e3-c6fc-447a-9e92-c453cb9a5c19 bound to port 0/0
+2019-08-19 13:33:27 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:27 +0000] "POST /v2/compute/projects/a6552344-c1fc-4197-a74a-746402aa8972/dynamips/nodes/49e65c8c-43f8-4e30-ae40-cd1657670b77/adapters/0/ports/0/nio HTTP/1.1" 201 382 "-" "Python/3.7 aiohttp/2.3.10"
+2019-08-19 13:33:27 INFO nio_udp.py:87 NIO UDP udp-6faf7218-79f9-4737-88b9-f972ade5dbc5 created with lport=10001, rhost=127.0.0.1, rport=10000
+2019-08-19 13:33:27 INFO base_node.py:540 Starting new uBridge hypervisor 127.0.0.1:38139
+2019-08-19 13:33:27 INFO hypervisor.py:170 starting ubridge: ['/usr/bin/ubridge', '-H', '127.0.0.1:38139']
+2019-08-19 13:33:27 INFO hypervisor.py:172 logging to /home/wost/GNS3/projects/skole/project-files/dynamips/22350548-129b-47ed-98a0-8ca7d3dbe940/ubridge.log
+2019-08-19 13:33:27 INFO hypervisor.py:180 ubridge started PID=27344
+2019-08-19 13:33:27 INFO base_node.py:543 Hypervisor 127.0.0.1:38139 has successfully started
+2019-08-19 13:33:28 INFO ubridge_hypervisor.py:84 Connected to uBridge hypervisor after 0.1053 seconds
+2019-08-19 13:33:28 INFO router.py:1312 Router "R2" [22350548-129b-47ed-98a0-8ca7d3dbe940]: NIO udp-6faf7218-79f9-4737-88b9-f972ade5dbc5 bound to port 0/0
+2019-08-19 13:33:28 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:28 +0000] "POST /v2/compute/projects/a6552344-c1fc-4197-a74a-746402aa8972/dynamips/nodes/22350548-129b-47ed-98a0-8ca7d3dbe940/adapters/0/ports/0/nio HTTP/1.1" 201 382 "-" "Python/3.7 aiohttp/2.3.10"
+2019-08-19 13:33:28 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:28 +0000] "POST /v2/projects/load HTTP/1.1" 201 693 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:28 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:28 +0000] "GET /v2/projects/a6552344-c1fc-4197-a74a-746402aa8972/nodes HTTP/1.1" 200 5153 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:28 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:28 +0000] "GET /v2/projects/a6552344-c1fc-4197-a74a-746402aa8972/links HTTP/1.1" 200 1472 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:28 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:28 +0000] "GET /v2/projects/a6552344-c1fc-4197-a74a-746402aa8972/drawings HTTP/1.1" 200 205 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:28 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:28 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:30 INFO router.py:113 Creating a new ghost IOS instance
+2019-08-19 13:33:30 INFO router.py:507 Router "Ghost" [5059ab3e-164d-4975-9877-04c6893f864a]: has a new IOS image set: "/home/wost/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T8.image"
+2019-08-19 13:33:30 INFO router.py:880 Router "Ghost" [5059ab3e-164d-4975-9877-04c6893f864a]: ghost status set to 1
+2019-08-19 13:33:30 INFO router.py:839 Router "Ghost" [5059ab3e-164d-4975-9877-04c6893f864a]: ghost file set to /home/wost/GNS3/projects/skole/project-files/dynamips/c7200-adventerprisek9-mz.124-24.T8.image-512.ghost
+2019-08-19 13:33:30 INFO router.py:536 Router "Ghost" [5059ab3e-164d-4975-9877-04c6893f864a]: RAM updated from 128MB to 512MB
+2019-08-19 13:33:30 INFO router.py:303 router "Ghost" [5059ab3e-164d-4975-9877-04c6893f864a] has been started
+2019-08-19 13:33:30 INFO router.py:335 Router "Ghost" [5059ab3e-164d-4975-9877-04c6893f864a] has been stopped
+2019-08-19 13:33:30 INFO router.py:1636 Router "Ghost" [5059ab3e-164d-4975-9877-04c6893f864a] has been deleted (including associated files)
+2019-08-19 13:33:30 INFO router.py:880 Router "R2" [22350548-129b-47ed-98a0-8ca7d3dbe940]: ghost status set to 2
+2019-08-19 13:33:30 INFO router.py:839 Router "R2" [22350548-129b-47ed-98a0-8ca7d3dbe940]: ghost file set to /home/wost/GNS3/projects/skole/project-files/dynamips/c7200-adventerprisek9-mz.124-24.T8.image-512.ghost
+2019-08-19 13:33:30 INFO router.py:880 Router "R1" [49e65c8c-43f8-4e30-ae40-cd1657670b77]: ghost status set to 2
+2019-08-19 13:33:30 INFO router.py:839 Router "R1" [49e65c8c-43f8-4e30-ae40-cd1657670b77]: ghost file set to /home/wost/GNS3/projects/skole/project-files/dynamips/c7200-adventerprisek9-mz.124-24.T8.image-512.ghost
+2019-08-19 13:33:30 INFO router.py:303 router "R2" [22350548-129b-47ed-98a0-8ca7d3dbe940] has been started
+2019-08-19 13:33:30 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:30 +0000] "POST /v2/compute/projects/a6552344-c1fc-4197-a74a-746402aa8972/dynamips/nodes/22350548-129b-47ed-98a0-8ca7d3dbe940/start HTTP/1.1" 204 249 "-" "Python/3.7 aiohttp/2.3.10"
+2019-08-19 13:33:30 INFO router.py:303 router "R1" [49e65c8c-43f8-4e30-ae40-cd1657670b77] has been started
+2019-08-19 13:33:30 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:30 +0000] "POST /v2/compute/projects/a6552344-c1fc-4197-a74a-746402aa8972/dynamips/nodes/49e65c8c-43f8-4e30-ae40-cd1657670b77/start HTTP/1.1" 204 249 "-" "Python/3.7 aiohttp/2.3.10"
+2019-08-19 13:33:30 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:30 +0000] "POST /v2/projects/a6552344-c1fc-4197-a74a-746402aa8972/nodes/start HTTP/1.1" 204 222 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:31 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:31 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:33:35 INFO router.py:1457 Router "R1" [49e65c8c-43f8-4e30-ae40-cd1657670b77]: starting packet capture on port 0/0
+2019-08-19 13:33:35 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:35 +0000] "POST /v2/compute/projects/a6552344-c1fc-4197-a74a-746402aa8972/dynamips/nodes/49e65c8c-43f8-4e30-ae40-cd1657670b77/adapters/0/ports/0/start_capture HTTP/1.1" 200 412 "-" "Python/3.7 aiohttp/2.3.10"
+2019-08-19 13:33:35 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:33:35 +0000] "POST /v2/projects/a6552344-c1fc-4197-a74a-746402aa8972/links/a11f6a10-b240-417b-88f2-b5cbfde0ca66/start_capture HTTP/1.1" 201 1488 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:34:00 INFO router.py:1597 saving startup-config to /home/wost/GNS3/projects/skole/project-files/dynamips/22350548-129b-47ed-98a0-8ca7d3dbe940/configs/i2_startup-config.cfg
+2019-08-19 13:34:00 INFO router.py:1597 saving startup-config to /home/wost/GNS3/projects/skole/project-files/dynamips/49e65c8c-43f8-4e30-ae40-cd1657670b77/configs/i1_startup-config.cfg
+2019-08-19 13:37:49 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:37:49 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:46:35 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:46:35 +0000] "GET /v2/computes HTTP/1.1" 200 1023 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 13:55:57 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:11:55:57 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 14:06:00 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:12:06:00 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 14:06:06 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:12:06:06 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 14:06:08 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:12:06:08 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 14:06:10 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:12:06:10 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 14:15:12 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:12:15:12 +0000] "GET /v2/computes HTTP/1.1" 200 1023 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 14:24:00 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:12:24:00 +0000] "GET /v2/computes HTTP/1.1" 200 1023 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 14:33:06 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:12:33:06 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 14:42:09 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:12:42:09 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 14:51:26 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:12:51:26 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 15:01:02 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:13:01:02 +0000] "GET /v2/computes HTTP/1.1" 200 1023 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 15:10:39 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:13:10:39 +0000] "GET /v2/computes HTTP/1.1" 200 1023 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 15:19:58 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:13:19:58 +0000] "GET /v2/computes HTTP/1.1" 200 1023 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 15:29:38 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:13:29:38 +0000] "GET /v2/computes HTTP/1.1" 200 1023 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 15:37:09 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:13:37:09 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 15:38:36 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:13:38:36 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 15:48:06 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:13:48:06 +0000] "GET /v2/computes HTTP/1.1" 200 1024 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 15:58:14 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:13:58:14 +0000] "GET /v2/computes HTTP/1.1" 200 1023 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 16:02:58 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:14:02:58 +0000] "GET /v2/computes HTTP/1.1" 200 1023 "-" "GNS3 QT Client v2.1.21"
+2019-08-19 16:04:12 INFO router.py:335 Router "R1" [49e65c8c-43f8-4e30-ae40-cd1657670b77] has been stopped
+2019-08-19 16:04:12 INFO router.py:335 Router "R2" [22350548-129b-47ed-98a0-8ca7d3dbe940] has been stopped
+2019-08-19 16:04:12 INFO router.py:1597 saving startup-config to /home/wost/GNS3/projects/skole/project-files/dynamips/49e65c8c-43f8-4e30-ae40-cd1657670b77/configs/i1_startup-config.cfg
+2019-08-19 16:04:12 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:14:04:12 +0000] "POST /v2/compute/projects/a6552344-c1fc-4197-a74a-746402aa8972/dynamips/nodes/49e65c8c-43f8-4e30-ae40-cd1657670b77/stop HTTP/1.1" 204 248 "-" "Python/3.7 aiohttp/2.3.10"
+2019-08-19 16:04:12 INFO router.py:1597 saving startup-config to /home/wost/GNS3/projects/skole/project-files/dynamips/22350548-129b-47ed-98a0-8ca7d3dbe940/configs/i2_startup-config.cfg
+2019-08-19 16:04:12 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:14:04:12 +0000] "POST /v2/compute/projects/a6552344-c1fc-4197-a74a-746402aa8972/dynamips/nodes/22350548-129b-47ed-98a0-8ca7d3dbe940/stop HTTP/1.1" 204 248 "-" "Python/3.7 aiohttp/2.3.10"
+2019-08-19 16:04:12 INFO base_node.py:313 Dynamips: 'R2' [22350548-129b-47ed-98a0-8ca7d3dbe940]: is closing
+2019-08-19 16:04:12 INFO base_node.py:313 Dynamips: 'R1' [49e65c8c-43f8-4e30-ae40-cd1657670b77]: is closing
+2019-08-19 16:04:12 INFO router.py:1489 Router "R1" [49e65c8c-43f8-4e30-ae40-cd1657670b77]: stopping packet capture on port 0/0
+2019-08-19 16:04:12 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:14:04:12 +0000] "POST /v2/compute/projects/a6552344-c1fc-4197-a74a-746402aa8972/dynamips/nodes/49e65c8c-43f8-4e30-ae40-cd1657670b77/adapters/0/ports/0/stop_capture HTTP/1.1" 204 310 "-" "Python/3.7 aiohttp/2.3.10"
+2019-08-19 16:04:12 INFO base_node.py:553 Stopping uBridge hypervisor 127.0.0.1:38139
+2019-08-19 16:04:12 INFO hypervisor.py:204 Stopping uBridge process PID=27344
+2019-08-19 16:04:12 INFO base_node.py:553 Stopping uBridge hypervisor 127.0.0.1:33541
+2019-08-19 16:04:12 INFO hypervisor.py:204 Stopping uBridge process PID=27339
+2019-08-19 16:04:12 INFO router.py:1597 saving startup-config to /home/wost/GNS3/projects/skole/project-files/dynamips/49e65c8c-43f8-4e30-ae40-cd1657670b77/configs/i1_startup-config.cfg
+2019-08-19 16:04:12 INFO hypervisor.py:150 Stopping Dynamips process PID=27308
+2019-08-19 16:04:12 INFO router.py:1597 saving startup-config to /home/wost/GNS3/projects/skole/project-files/dynamips/22350548-129b-47ed-98a0-8ca7d3dbe940/configs/i2_startup-config.cfg
+2019-08-19 16:04:12 INFO hypervisor.py:150 Stopping Dynamips process PID=27323
+2019-08-19 16:04:13 INFO project.py:367 Project a6552344-c1fc-4197-a74a-746402aa8972 with path '/home/wost/GNS3/projects/skole' closed
+2019-08-19 16:04:13 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:14:04:13 +0000] "POST /v2/compute/projects/a6552344-c1fc-4197-a74a-746402aa8972/close HTTP/1.1" 204 224 "-" "Python/3.7 aiohttp/2.3.10"
+2019-08-19 16:04:13 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:14:04:13 +0000] "GET /v2/projects/a6552344-c1fc-4197-a74a-746402aa8972/notifications/ws HTTP/1.1" 200 493 "-" "-"
+2019-08-19 16:18:14 WARNING web_server.py:143 Server has got signal SIGTERM, exiting...
+2019-08-19 16:18:14 WARNING web_server.py:143 Server has got signal SIGHUP, exiting...
+2019-08-19 16:18:14 WARNING web_server.py:100 Close is already in progress
+2019-08-19 16:18:16 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:14:18:16 +0000] "GET /v2/compute/projects/a6552344-c1fc-4197-a74a-746402aa8972/stream/tmp/captures/R1_FastEthernet00_to_R2_FastEthernet00.pcap HTTP/1.1" 408 566 "-" "Python/3.7 aiohttp/2.3.10"
+2019-08-19 16:18:16 INFO helpers.py:534 127.0.0.1 [19/Aug/2019:14:18:16 +0000] "GET /v2/compute/notifications/ws HTTP/1.1" 200 479 "-" "Python/3.7 aiohttp/2.3.10"
+2019-08-19 16:18:16 INFO __init__.py:222 Stop controller
+2019-08-19 16:18:16 INFO run.py:260 Remove PID file /home/wost/.config/GNS3/gns3_server.pid

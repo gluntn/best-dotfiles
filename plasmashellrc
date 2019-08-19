@@ -1,0 +1,23 @@
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Downloads/Neon Life.jpg,file:$HOME/Downloads/Neon Life.jpg
+Recent URLs[$e]=file:$HOME/Downloads/
+
+[PlasmaRunnerManager]
+LaunchCounts=2 services_gns3.desktop,1 services_org.kde.konsole.desktop,4 services_kitty.desktop,2 services_systemsettings.desktop,1 shell_dunst,1 services_org.kde.muon.desktop,2 services_eclipse_eclipse.desktop
+pluginWhiteList=services,shell,bookmarks,baloosearch,locations
+
+[PlasmaViews][Panel 2]
+alignment=132
+panelVisibility=0
+
+[PlasmaViews][Panel 2][Horizontal1920]
+maxLength=1920
+minLength=1920
+thickness=32
+
+[ScreenConnectors]
+0=eDP-1
+1=DVI-I-1-1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js
