@@ -1,1 +1,3 @@
-2019/08/18-13:18:55.291 20083 Reusing MANIFEST /home/wost/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2019/08/19-23:37:33.054 20095 Reusing MANIFEST /home/wost/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2019/08/19-23:37:33.054 20095 Recovering log #3
+2019/08/19-23:37:33.055 20095 Reusing old log /home/wost/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000003.log 

@@ -12,10 +12,10 @@
 set $mod Mod4
 
 # Remove titlebars completely
-for_window [class="^.*"] border pixel 0
-for_window [instance="sun-awt-X11-XFramePeer"] floating enable
-for_window [instance="sun-awt-X11-XDialogPeer"] floating enable
-for_window [class="Yad"] floating enable
+for_window [class="^.*"] floating enable border pixel 0
+#for_window [instance="sun-awt-X11-XFramePeer"] floating enable
+#for_window [instance="sun-awt-X11-XDialogPeer"] floating enable
+#for_window [class="Yad"] floating enable
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -37,8 +37,8 @@ focus_follows_mouse no
 floating_modifier $mod
 
 # all startup program
-exec --no-startup-id feh --bg-fill ~/Pictures/bg.jpg
-exec --no-startup-id compton
+exec --no-startup-id feh --bg-fill ~/Pictures/bg2.jpg
+exec --no-startup-id compton --blur-background
 exec --no-startup-id synclient NaturalScrolling=1 VertScrollDelta=-110
 
 # all always startup
@@ -119,16 +119,16 @@ gaps inner 10
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "one"
-set $ws2 "two"
-set $ws3 "three"
-set $ws4 "four"
-set $ws5 "5"
-set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9"
-set $ws10 "10"
+set $ws1  "1"
+set $ws2  "2"
+set $ws3  "3"
+set $ws4  "4"
+set $ws5  "5"
+set $ws6  "6"
+set $ws7  "7"
+set $ws8  "8"
+set $ws9  "9"
+set $ws10 "0"
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
